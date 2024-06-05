@@ -41,5 +41,11 @@ myip="$(curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<
 
 # Exibe na tela o IP
 echo "$myip"
-
 ```
+
+Você pode movelo para /usr/bin e disponibilizar o comando para todos os usuarios
+```
+sudo cp myip.sh /usr/bin/
+```
+
+
