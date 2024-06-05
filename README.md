@@ -45,7 +45,14 @@ echo "$myip"
 
 Você pode movelo para /usr/bin e disponibilizar o comando para todos os usuarios
 ```
+# copiar para /usr/bin
 sudo cp myip.sh /usr/bin/
+
+# Permição para usuarios e grupos
+sudo chmod 777 /usr/bin/myip.sh
+
+# Tornalo executavel
+sudo chmod +x /usr/bin/myip.sh
 ```
 
 
